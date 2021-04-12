@@ -1,0 +1,27 @@
+.main-container {
+  color: $colorWhite;
+  height: 573.1px;
+  margin: 70px auto 0 auto;
+  width: 1293px;
+  &__description {
+    color: $colorLightGray;
+    font-size: 18px;
+    font-family: $fontYantramanavLight;
+    margin: 30px auto 30px auto;
+    width: 740px;
+  }
+  &__title {
+    font-size: 36px;
+    font-family: $fontPlayfairRegular;
+    margin: 0 auto;
+    width: 291px;
+  }
+  &__container-carousel {
+    display: flex;
+    flex-direction: row;
+    height: 430px;
+    justify-content: space-between;
+    width: 100%;
+    @import '../components/cards';
+  }
+}

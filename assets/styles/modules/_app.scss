@@ -1,0 +1,12 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $colorBlack;
+  font-family: $fontYantramanavRegular;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  margin: 0 auto;
+}
+.gold-color {
+  color: $colorDefault;
+}

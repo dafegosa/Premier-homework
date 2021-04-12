@@ -1,0 +1,8 @@
+{
+  "name": "premier-med-group",
+  "version": "1.0.0",
+  "description": "This is the homework when BEM is implemented in a simple project.",
+  "main": "index.js",
+  "author": "Daniel Gómez",
+  "license": "MIT"
+}

@@ -1,0 +1,31 @@
+.card {
+  color: $colorLightGray;
+  display: flex;
+  flex-direction: column;
+  font-family: $fontYantramanavLight;
+  font-size: 18px;
+  height: 100%;
+  width: 250px;
+  &__big-number {
+    color: transparent;
+    font-family: $fontPlayfairRegular;
+    font-size: 80px;
+    margin: 0;
+    -webkit-text-stroke: 1px $colorDefault;
+  }
+  &__title {
+    color: $colorWhite;
+    font-family: $fontYantramanavBold;
+    font-size: 24px;
+    min-height: 50px;
+    width: 120px;
+    &--w-230 {
+      width: 230px;
+    }
+  }
+  &__small-horizontal-line {
+    background: $colorDefault;
+    height: 2.5px;
+    width: 25px;
+  }
+}
